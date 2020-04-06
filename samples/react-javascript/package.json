@@ -1,0 +1,74 @@
+{
+  "name": "react-javascript-sample",
+  "version": "1.0.0",
+  "description": "A sample React application that demonstrates the Azure AD react component.",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syncweek-react-aad/react-aad.git"
+  },
+  "author": "Laura Bochenek",
+  "contributors": [
+    "Laura Bochenek <laura.bochenek@microsoft.com>",
+    "Omeed Musavi <omusavi@microsoft.com>",
+    "Lilian Kasem <lilian.kasem@microsoft.com>",
+    "Tess DiStefano <tedistef@microsoft.com>",
+    "Lucas Huet-Hudson <lucashh@microsoft.com>",
+    "Zach Miller <zamiller@microsoft.com>",
+    "P.J. Little <pj.little@microsoft.com>",
+    "Shawn Cicoria <shawn.cicoria@microsoft.com>",
+    "Andrew Craswell <andcra@microsoft.com>",
+    "Björn Dalfors <bjorn@binovi.se>"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "datatables.net-autofill-bs4": "^2.3.4",
+    "datatables.net-bs4": "^1.10.20",
+    "datatables.net-buttons-bs4": "^1.6.1",
+    "datatables.net-responsive-bs4": "^2.2.3",
+    "datatables.net-select-bs4": "^1.3.1",
+    "jquery": "^3.4.1",
+    "jszip": "^3.2.2",
+    "mdbootstrap": "^4.14.1",
+    "mdbreact": "file:../../../../Desktop/mdbreact-4.25.4.tgz",
+    "msal": "^1.2.0",
+    "pdfmake": "^0.1.65",
+    "popper.js": "^1.16.1",
+    "react": "^16.12.0",
+    "react-aad-msal": "^2.3.2",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.3.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.0"
+  },
+  "scripts": {
+    "clean": "rimraf build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie < 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
